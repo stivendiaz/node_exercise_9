@@ -3,12 +3,12 @@ block content
   form(action="/register" method="POST")
     .form-group
       label(for='text') Nombre:
-      input#name.form-control(type='text', placeholder='Enter name', name='name')
+      input#name.form-control(type='text', placeholder='Enter name', name='name',id="name")
     .form-group
       label(for='email') Email:
-      input#email.form-control(type='email', placeholder='Enter email', name='email')
+      input#email.form-control(type='email', placeholder='Enter email', name='email',id="email")
     .form-group
       label(for='pwd') Contraseña:
-      input#pwd.form-control(type='password', placeholder='Enter password', name='password')
+      input#pwd.form-control(type='password', placeholder='Enter password', name='password',id="password")
     .form-group
       button.btn.btn-primary(type='submit') Submit
